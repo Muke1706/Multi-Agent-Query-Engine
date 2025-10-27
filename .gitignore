@@ -1,0 +1,20 @@
+# Virtual Environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Secrets
+.env
+
+# ChromaDB data
+db/
+
+# Git directory (if you already ran git init)
+.git/
+
+# VS Code settings (optional)
+.vscode/
