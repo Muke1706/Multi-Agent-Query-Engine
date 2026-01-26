@@ -10,9 +10,6 @@ This project implements a modular, multi-agent system capable of answering user 
 
 The system follows a router-agent pattern orchestrated by Langgraph:
 
-
-*(**Action:** You'll need to upload your diagram image and replace this line with the Markdown image link, like `![Architecture Diagram](URL_TO_YOUR_IMAGE)`) *
-
 1.  **Router:** Receives the user query and uses an LLM (Gemini) to determine if the query requires information from local documents (`document_search`) or the web (`web_search`).
 2.  **Agents:**
     * **DocumentAgent:** Performs RAG using a ChromaDB vector store (populated with Project Management documents) and Gemini to answer questions based on the provided context.
@@ -49,10 +46,9 @@ The system follows a router-agent pattern orchestrated by Langgraph:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/Multi-Agent-Engine.git
+    git clone https://github.com/Muke1706/Multi-Agent-Engine.git
     cd Multi-Agent-Engine
     ```
-    *(**Action:** Replace `YOUR_USERNAME`)*
 
 2.  **Create a `.env` file:** In the root directory, create a `.env` file and add your API keys:
     ```env
