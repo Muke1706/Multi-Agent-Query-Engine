@@ -16,6 +16,8 @@ The system follows a router-agent pattern orchestrated by Langgraph:
     * **WebSearchAgent:** Uses the Tavily Search API to find real-time information online.
 3.  **Synthesizer:** Takes the raw output from the selected agent and uses an LLM (Gemini) to generate a clean, final answer for the user. It also demonstrates conceptual understanding of GraphRAG by attempting to extract key relationships.
 
+![Project_Pic](https://github.com/user-attachments/assets/5dd037f2-6244-4ec5-9a5c-e5f7bb45cbec)
+
 ---
 
 ## Features
